@@ -45,9 +45,9 @@ class Block {
 	    self.hash = hash;
             // Comparing if the hashes changed
 	    if(self == hash){
-		resolve('true')
+		resolve('true');
 	    } else {
-		reject('false')
+		reject('false');
 	    }
             // Returning the Block is not valid
             
