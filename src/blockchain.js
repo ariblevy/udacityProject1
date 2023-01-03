@@ -66,6 +66,8 @@ class Blockchain {
         return new Promise(async (resolve, reject) => {
           resolve(this.height = getChainHeight + 1;
 	  	this.time = Date.now();
+		);
+	   reject("failed to add block");
         });
     }
 
